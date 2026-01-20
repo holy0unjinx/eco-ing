@@ -1,0 +1,91 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Key {
+  id              String   @id @unique
+  user_id         String
+  hashed_password String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  user            User     @relation(fields: [user_id], references: [id])
+
+  @@index([user_id])
+  @@map("key")
+}
+
+model User {
+  id         String    @id @unique
+  studentsId String    @unique
+  name       String
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  keys       Key[]
+  sessions   Session[]
+  profile    Profile[]
+
+  @@map("user")
+}
+
+model Profile {
+  id String @id @unique
+  user_id String @unique
+  class String
+  point Int
+  level Int
+  barcode String @unique
+  email String?
+  user User @relation(fields: [user_id], references: [id])
+
+  @@index([user_id])
+  @@map("profile")
+}
+
+model Card {
+  id String @id @unique
+  title String
+  imgURL String
+  style String
+  url String
+  description String
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+}
+
+model Session {
+  id             String @id @unique
+  user_id        String
+  active_expires BigInt
+  idle_expires   BigInt
+  user           User   @relation(fields: [user_id], references: [id])
+
+  @@index([user_id])
+  @@map("session")
+}
+
+model Product {
+  id          Int      @id @default(autoincrement())
+  name        String 
+  imgURL      String?
+  description String?
+  published   Boolean
+  amount      Int
+  keys Product_key[]
+  price       Int
+  where_to_use String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Product_key {
+  id String @id @unique
+  keys String
+  productId Int
+  due_date    String
+  product Product @relation(fields: [productId], references: [id])
+}
