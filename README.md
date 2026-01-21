@@ -14,7 +14,7 @@
 
 이 프로젝트는 아두이노 우노 R3와 라즈베리파이를 활용하여 환경 포인트 시스템을 구축하는 것입니다. 사용자가 쓰레기를 분리배출할 때 포인트를 적립할 수 있는 시스템을 개발합니다. 서버는 Vercel에서 호스팅되며, GitHub을 통해 버전 관리를 합니다.
 
-<details>
+<details open>
 <summary><h2>사용 화면 (예시)</h2></summary>
 
 <div style="overflow-x: auto; white-space: nowrap; padding: 10px 0;">
