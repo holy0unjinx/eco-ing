@@ -10,7 +10,7 @@
 
 <img src="public/collage.jpg" style="width:70%">
 
-~~[링크](https://eco-ing.vercel.app)~~ (현재 사용 불가) [PPT](https://docs.google.com/presentation/d/1ISppfHLpTeY9ICfI4YwmMlGJzPQ5gjar3NNi-LrNtjM/edit?usp=sharing)
+~~[링크](https://eco-ing.vercel.app) (현재 사용 불가)~~ [PPT](https://docs.google.com/presentation/d/1ISppfHLpTeY9ICfI4YwmMlGJzPQ5gjar3NNi-LrNtjM/edit?usp=sharing)
 
 이 프로젝트는 아두이노 우노 R3와 라즈베리파이를 활용하여 환경 포인트 시스템을 구축하는 것입니다. 사용자가 쓰레기를 분리배출할 때 포인트를 적립할 수 있는 시스템을 개발합니다. 서버는 Vercel에서 호스팅되며, GitHub을 통해 버전 관리를 합니다.
 
@@ -18,21 +18,21 @@
 <summary><h2>사용 화면 (예시)</h2></summary>
 
 <div style="overflow-x: auto; white-space: nowrap; padding: 10px 0;">
-  <img src="public/1.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/2.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/3.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/4.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/5.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/7.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/8.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/9.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/10.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/12.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/13.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/14.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-    <img src="public/15.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/16.png" style="display: inline-block; width: 300px; margin-right: 10px;">
-  <img src="public/17.png" style="display: inline-block; width: 300px; margin-right: 10px;">
+  <img src="public/1.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/2.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/3.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/4.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/5.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/7.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/8.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/9.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/10.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/12.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/13.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/14.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+    <img src="public/15.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/16.png" style="display: inline-block; width: 250px; margin-right: 10px;">
+  <img src="public/17.png" style="display: inline-block; width: 250px; margin-right: 10px;">
 </div>
 </details>
 
