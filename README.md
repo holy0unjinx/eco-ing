@@ -10,7 +10,7 @@
 
 <img src="public/collage.jpg" style="width:70%">
 
-[링크](https://eco-ing.vercel.app) [PPT](https://docs.google.com/presentation/d/1ISppfHLpTeY9ICfI4YwmMlGJzPQ5gjar3NNi-LrNtjM/edit?usp=sharing)
+~~[링크](https://eco-ing.vercel.app)~~ (현재 사용 불가) [PPT](https://docs.google.com/presentation/d/1ISppfHLpTeY9ICfI4YwmMlGJzPQ5gjar3NNi-LrNtjM/edit?usp=sharing)
 
 이 프로젝트는 아두이노 우노 R3와 라즈베리파이를 활용하여 환경 포인트 시스템을 구축하는 것입니다. 사용자가 쓰레기를 분리배출할 때 포인트를 적립할 수 있는 시스템을 개발합니다. 서버는 Vercel에서 호스팅되며, GitHub을 통해 버전 관리를 합니다.
 
